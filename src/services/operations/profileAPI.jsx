@@ -1,4 +1,4 @@
-import { apiConnector } from "../apiConnector";
+import { apiConnector } from "../apiconnector";
 import { profileEndpoints } from "../apis"
 import { toast } from "react-hot-toast";
 import { logout } from "./authAPI.jsx";

@@ -1,4 +1,4 @@
-import { apiConnector } from "../apiConnector";
+import { apiConnector } from "../apiconnector";
 import { studentEndpoints } from "../apis";
 import { toast } from "react-hot-toast";
 import rzplogo from "../../assets/Images/rzp.png";
