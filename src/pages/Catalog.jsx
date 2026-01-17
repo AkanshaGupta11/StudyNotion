@@ -5,7 +5,7 @@ import { categories } from '../services/apis';
 import { getCatalogPageData } from '../services/operations/pageAndComponentData';
 import CourseSlider from '../components/core/Catalog/CourseSlider';
 import Course_Card from '../components/core/Catalog/Course_Card';
-import { apiConnector } from '../services/apiConnector';
+import { apiConnector } from '../services/apiconnector';
 
 function Catalog() {
     //catalog name
