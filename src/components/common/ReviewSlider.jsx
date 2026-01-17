@@ -10,7 +10,7 @@ import "swiper/css/navigation";
 
 import ReactStars from 'react-stars';
 import { ratingsEndpoints } from '../../services/apis';
-import { apiConnector } from '../../services/apiConnector';
+import { apiConnector } from '../../services/apiconnector';
 import { FaStar } from 'react-icons/fa';
 
 
