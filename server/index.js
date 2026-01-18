@@ -23,7 +23,7 @@ app.use(express.json()); // if any json format , javascript object mai bdl kr ->
 app.use(cookieParser());
 app.use(
     cors({
-        origin:["http://localhost:3000" , "http://localhost:4000", "http://localhost:3001"], // jho bhi request 3000 se aa rhi usko entertain krna bht imp hain 
+        origin:["http://localhost:3000" , "http://localhost:4000", "http://localhost:3001","https://study-notion-ckx2.vercel.app"], // jho bhi request 3000 se aa rhi usko entertain krna bht imp hain 
         credentials:true,
     })
 )
