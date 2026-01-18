@@ -76,7 +76,7 @@ useEffect(() => {
                     <div className='flex items-center gap-4'>
                     {/* Profile Image */}
                     <img 
-                    src = {review?.user?.image ? review?.user?.image : `https://api.dicebar.com/5.x/initials/svg?seed=${review?.user?.firstName} ${review?.user?.lastName}`}
+                    src = {review?.user?.image ? review?.user?.image : `https://api.dicebear.com/5.x/initials/svg?seed=${review?.user?.firstName} ${review?.user?.lastName}`}
                     alt = 'Profile Pic'
                     className='h-9 w-9 object-cover rounded-full'
                     />
